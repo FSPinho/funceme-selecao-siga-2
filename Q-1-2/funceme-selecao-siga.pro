@@ -24,8 +24,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    priorityzone.cpp \
+    newreservoirdialog.cpp \
+    reservoir.cpp \
+    newzonedialog.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    priorityzone.h \
+    priorityutils.h \
+    newreservoirdialog.h \
+    reservoir.h \
+    newzonedialog.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    newreservoirdialog.ui \
+    newzonedialog.ui
+
+CONFIG += c++11
